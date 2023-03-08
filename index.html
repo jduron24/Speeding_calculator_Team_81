@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<!--
+
+    The start of something extraordinary. A W-J software development production.
+
+-->
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedingCalculator</title>
+    <link rel="stylesheet" href="styles.css">
+     
+    <link rel="icon" href="favIcon2.ico">
+
+    <!-- <style>
+        #map{
+            width: 100%;
+            height: 400px;
+            background-color: grey;
+        }
+    </style>
+     -->
+</head>
+
+<body>
+    <div class="background">
+        <h1>
+            Speeding Calculator
+        </h1>
+
+        <h3>Calculator Use</h3>
+
+        <p class="CalculatorUse">Our website aims to help drivers make informed decisions about their speed while
+            traveling
+            from one place to another. By inputting your starting point, destination, and the amount you
+            plan to exceed the speed limit, our website can calculate how much time you would save compared
+            to following the speed limit. <br>
+        </p>
+
+        <form>
+            Point A: <input type="text" name="Point_A" placeholder="Ex: 123 street ave city state">
+            Point B: <input type="text" name="Point_B" placeholder="Ex: 123 street ave city state">
+            Speed(MPH): <input type="number" name="Speed" placeholder="50">
+        </form>
+
+        <button class="calculateButton" type="button">Calculate</button>
+
+
+
+        <div id="map">
+            <p style="text-align: center; margin-top: 150px;"> Map goes here</p>
+            <div class="calculatedNumbers">
+                <p>hey</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <!-- <div>
+            <footer>
+                <p>Created By: <br>Will Griner <br> Jonathan Duron</p>
+            </footer>
+        </div> -->
+    </div>
+
+    <!-- <script>
+        function initMap() {
+            let iowaState = { lat:  42.02846678849032, lng: -93.6508728711652 }; 
+            // creates a new google maps object
+            let map = new google.maps.Map(
+                // was initially getELementById, if cannot get to work later, change map from a class to an id
+                document.getElementById('map'), { zoom: 17, center: iowaState } // zoom == zoom level, zoom 0 is the lowest. center == 
+            )
+            let marker = new google.maps.Marker({ position: iowaState, map: map })
+
+        }
+    </script> -->
+
+
+
+   
+
+    <script src="index.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGLaDL46KgWIre9tVEGgX1MJtPOuu8bTQ&callback=initMap"> </script>
+    
+</body>
+
+</html>
