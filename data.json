@@ -1,0 +1,10 @@
+{"pictures":[
+    { "id":"Jon Duron", "description":"Picture of Jon", "fileType":"Doe"},
+    { "id":"Will Griner", "description":"Picture of Will", "fileType":"Doe"},
+    { "id":"groupPic", "description":"Picture of Jon and Will", "fileType":"Doe" },
+
+    { "id":"speedometer", "description":"Picture of a speedometer", "fileType":"Doe" },
+    { "id":"plusSign", "description":"Picture of a plus sign", "fileType":"Doe" },
+    { "id":"calculator", "description":"Picture of a calculator", "fileType":"Doe" }
+    
+  ]}

@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpeedingCalculator</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles\styles.css">
      
     <link rel="icon" href="favIcon2.ico">
 
@@ -26,18 +26,25 @@
         }
     </style>
      -->
+
 </head>
 
 <body>
     <div class="background">
         <h1>
             Speeding Calculator
+            <img src="/Users/jonathanduron/Documents/gitrepo/spring23/COMS319/midTerm/319-MidtermW-J/speedingCaluculator/images/speedometer.png" alt="speedometer">
+            <img src="images/plusSign.png" alt="plus sign">
+            <img src="images/calculator.jpg" alt="calculator">
         </h1>
+        
+
+        
 
         <h3>Calculator Use</h3>
 
         <p class="CalculatorUse">Our website aims to help drivers make informed decisions about their speed while
-            traveling
+            traveling 
             from one place to another. By inputting your starting point, destination, and the amount you
             plan to exceed the speed limit, our website can calculate how much time you would save compared
             to following the speed limit. <br>
@@ -48,23 +55,26 @@
             Point B: <input type="text" name="Point_B" placeholder="Ex: 123 street ave city state">
             Speed(MPH): <input type="number" name="Speed" placeholder="50">
         </form>
-
+ 
         <button class="calculateButton" type="button">Calculate</button>
+
+
+        <form>
+            Latitude: <input type="text" name="Lat" placeholder="Ex: 50.512">
+            Longitude: <input type="text" name="Longitude" placeholder="Ex: --22.523">
+            Speed(MPH): <input type="number" name="Speed" placeholder="50">
+        </form>
+
+        <button class="calculateButton" type="button">Set Marker</button>
 
 
 
         <div id="map">
-            <p style="text-align: center; margin-top: 150px;"> Map goes here</p>
+            
             <div class="calculatedNumbers">
                 <p>hey</p>
             </div>
         </div>
-
-
-
-
-
-
 
 
         <!-- <div>
