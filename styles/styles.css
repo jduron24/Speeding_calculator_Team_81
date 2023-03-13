@@ -65,4 +65,7 @@ border-radius: 30px;
     opacity: 0.7;
   }
 
-
+  .topnav {
+    background-color: #d2b3b3;
+    overflow: hidden;
+  }
