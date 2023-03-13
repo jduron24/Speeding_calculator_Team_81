@@ -25,17 +25,23 @@ function appendData(data) {
         const content = 
         `
             <div class="col">
+            
               <div class="card shadow-sm">
                 <img
+                
                   src="${result.url}"
                   alt="${result.description}"
+                  
                 />
                 <div class="card-body">
+                
                   <h4>${result.description}</h4>
                   <p class="card-text">
+                  
                     ${result.description}
                   </p>
                   <p class="card-text">
+                  
                     ${result.price}
                   </p>
                   <div
@@ -43,17 +49,25 @@ function appendData(data) {
                   >
                     <div class="btn-group">
                       <button
+                      
                         type="button"
+                        
                         class="btn btn-sm btn-outline-secondary"
                         onclick=""
                       >
                         View
                       </button>
+                      
                     </div>
+                    
                     <small class="text-muted"></small>
+                    
                   </div>
+                  
                 </div>
+                
               </div>
+              
             </div>
         `;
         mainContainer.innerHTML += content;
