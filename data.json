@@ -1,10 +1,9 @@
-{"pictures":[
-    { "id":"Jon Duron", "description":"Picture of Jon", "fileType":"Doe"},
-    { "id":"Will Griner", "description":"Picture of Will", "fileType":"Doe"},
-    { "id":"groupPic", "description":"Picture of Jon and Will", "fileType":"Doe" },
+[
+  { "id":"SpeedingCalculator", "description":"caclulator", "price":"19.99", "url":"./images/product_calculator.jpg" },
+  { "id":"speed-o-meter", "description":"speedometer", "price":"4.99", "url":"./images/product2_keychain.jpg" },
+  { "id":"speeding calculator charger", "description":"charger", "price":"4.99", "url":"./images/product3_charger.jpeg" }
+]
 
-    { "id":"speedometer", "description":"Picture of a speedometer", "fileType":"Doe" },
-    { "id":"plusSign", "description":"Picture of a plus sign", "fileType":"Doe" },
-    { "id":"calculator", "description":"Picture of a calculator", "fileType":"Doe" }
-    
-  ]}
+
+
+
