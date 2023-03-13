@@ -1,0 +1,6 @@
+[
+    { "id":"calculator", "description":"calculator!", "price":"who cares", "url":"./images/calculator.jpg" },
+    { "id":"plusSign", "description":"plusSign!", "price":"who cares", "url":"./images/plusSign.png" },
+    { "id":"speedometer2", "description":"speedometer2!", "price":"who cares", "url":"./images/speedometer2.png" }
+  ]
+  
