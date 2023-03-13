@@ -35,58 +35,65 @@
         <a href="index.html">Home</a>
         <a href="credits.html">Credits</a>
     </div>
-    <div class="background">
-        <h1>
-            Speeding Calculator
-            <img src="images/speedometer.png" alt="speedometer">
-            <img src="images/plusSign.png" alt="plus sign">
-            <img src="images/calculator.jpg" alt="calculator">
-        </h1>
-        
+     <div class="background">
 
-        
-
-        <h3>Calculator Use</h3>
-
-        <p class="CalculatorUse">Our website aims to help drivers make informed decisions about their speed while
-            traveling 
-            from one place to another. By inputting your starting point, destination, and the amount you
-            plan to exceed the speed limit, our website can calculate how much time you would save compared
-            to following the speed limit. <br>
-        </p>
-
-        <form>
-            Point A: <input type="text" name="Point_A" placeholder="Ex: 123 street ave city state">
-            Point B: <input type="text" name="Point_B" placeholder="Ex: 123 street ave city state">
-            Speed(MPH): <input type="number" name="Speed" placeholder="50">
-        </form>
- 
-        <button class="calculateButton" type="button">Calculate</button>
-
-
-        <form>
-            Latitude: <input type="text" name="Lat" placeholder="Ex: 50.512">
-            Longitude: <input type="text" name="Longitude" placeholder="Ex: --22.523">
-            Speed(MPH): <input type="number" name="Speed" placeholder="50">
-        </form>
-
-        <button class="calculateButton" type="button">Set Marker</button>
-
-
-
-        <div id="map">
-            
-            <div class="calculatedNumbers">
-                <p>hey</p>
+            <div id="myData">
+                <h1>
+                    Speeding Calculator
+                    <!-- <img src="/Users/jonathanduron/Documents/gitrepo/spring23/COMS319/midTerm/319-MidtermW-J/speedingCaluculator/images/speedometer2.png" alt="speedometer"> -->
+                    <!-- <img src="images/plusSign.png" alt="plus sign">
+                    <img src="images/calculator.jpg" alt="calculator"> -->
+                </h1>
+                
             </div>
+           
+    
+            
+    
+            <h3>Calculator Use</h3>
+    
+            <p class="CalculatorUse">Our website aims to help drivers make informed decisions about their speed while
+                traveling 
+                from one place to another. By inputting your starting point, destination, and the amount you
+                plan to exceed the speed limit, our website can calculate how much time you would save compared
+                to following the speed limit. <br>
+            </p>
+    
+            <form>
+                Point A: <input type="text" name="Point_A" placeholder="Ex: 123 street ave city state">
+                Point B: <input type="text" name="Point_B" placeholder="Ex: 123 street ave city state">
+                Speed(MPH): <input type="number" name="Speed" placeholder="50">
+            </form>
+     
+            <button class="calculateButton" type="button">Calculate</button>
+    
+    
+            <form>
+                Latitude: <input type="text" name="Lat" placeholder="Ex: 50.512">
+                Longitude: <input type="text" name="Longitude" placeholder="Ex: --22.523">
+                Speed(MPH): <input type="number" name="Speed" placeholder="50">
+            </form>
+    
+            <button class="calculateButton" type="button">Set Marker</button>
+    
+    
+    
+            <div id="map">
+                
+                <div class="calculatedNumbers">
+                    <p>hey</p>
+                </div>
+            </div>
+    
+    
+            <!-- <div>
+                <footer>
+                    <p>Created By: <br>Will Griner <br> Jonathan Duron</p>
+                </footer>
+            </div> -->
         </div>
-
-        <!-- <div>
-            <footer>
-                <p>Created By: <br>Will Griner <br> Jonathan Duron</p>
-            </footer>
-        </div> -->
-    </div>
+    <!-- </div>    //mydata div -->
+    
 
     <!-- <script>
         function initMap() {
@@ -105,9 +112,11 @@
 
    
 
-    <script src="index.js"></script>
+    <script src="./index.js">  //links the js to the html. the js is where you'll write most of the code </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGLaDL46KgWIre9tVEGgX1MJtPOuu8bTQ&callback=initMap"> </script>
     
 </body>
+    
+
 
 </html>
