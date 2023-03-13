@@ -84,40 +84,59 @@ function appendData(data) {
     //let testInt = 1;
 
     data.forEach((result) => {
+        
         const card = document.createElement('div');
         card.classList = "row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3";
         const content = 
         `
             <div class="col">
+            
+            
               <div class="card shadow-sm">
+              
                 <img
                   src="${result.url}"
                   alt="${result.description}"
                 />
+                
                 <div class="card-body">
+                
                   <h4>${result.description}</h4>
+                  
                   <p class="card-text">
                     ${result.description}
                   </p>
+                  
                   <p class="card-text">
                     ${result.price}
                   </p>
+                  
                   <div
                     class="d-flex justify-content-between align-items-center"
                   >
+                  
+                  
                     <div class="btn-group">
+                    
                       <button
                         type="button"
                         class="btn btn-sm btn-outline-secondary"
                         onclick=""
                       >
+                      
                         View
                       </button>
+                      
                     </div>
+                    
                     <small class="text-muted"></small>
+                    
                   </div>
+                  
                 </div>
+                
               </div>
+              
             </div>
         `;
         mainContainer.innerHTML += content;
